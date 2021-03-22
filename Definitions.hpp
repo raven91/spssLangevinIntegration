@@ -1,0 +1,22 @@
+//
+// Created by Nikita Kruk on 06.03.18.
+//
+
+#ifndef SPPKURAMOTOWITHINERTIAODEINTEGRATION_DEFINITIONS_HPP
+#define SPPKURAMOTOWITHINERTIAODEINTEGRATION_DEFINITIONS_HPP
+
+//#define LICHTENBERG
+//#define BCS_CLUSTER
+
+//#define MPI_PARAMETER_SCAN
+//#define MPI_FAST_INTERACTION
+#define MPI_FAST_INTERACTION_SHARED_MEMRORY
+
+#include <random>
+
+typedef double Real;
+typedef float RealOutput;
+
+extern std::mt19937 mersenne_twister_generator;
+
+#endif //SPPKURAMOTOWITHINERTIAODEINTEGRATION_DEFINITIONS_HPP
